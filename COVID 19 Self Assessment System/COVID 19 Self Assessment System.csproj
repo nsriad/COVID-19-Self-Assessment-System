@@ -187,7 +187,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="css\custom.css" />
-    <Content Include="css\jquery-ui.min.css" />
     <Content Include="css\login.css" />
     <Content Include="css\opensans-font.css" />
     <Content Include="css\style.css" />
@@ -211,10 +210,6 @@
     <Content Include="Images\orderedList9.png" />
     <Content Include="Images\wizard_v6.jpg" />
     <Content Include="Images\wizard_v6_icon.png" />
-    <Content Include="js\jquery-3.3.1.min.js" />
-    <Content Include="js\jquery-ui.min.js" />
-    <Content Include="js\jquery.steps.js" />
-    <Content Include="js\main.js" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\material-design-iconic-font\fonts\Material-Design-Iconic-Font.eot" />
@@ -231,6 +226,9 @@
     <Content Include="fonts\Open_Sans\OpenSans-Regular.ttf" />
     <Content Include="fonts\Open_Sans\OpenSans-SemiBold.ttf" />
     <Content Include="fonts\Open_Sans\OpenSans-SemiBoldItalic.ttf" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="homepage\Web.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -259,9 +257,6 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Default.aspx" />
-    <Content Include="favicon.ico" />
-    <Content Include="Global.asax" />
     <Content Include="vendor\bootrap\css\bootstrap.min.css" />
     <Content Include="vendor\bootrap\js\bootstrap.min.js" />
     <Content Include="Web.config" />
@@ -314,13 +309,6 @@
     </Compile>
     <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

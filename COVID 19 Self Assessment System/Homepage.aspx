@@ -72,7 +72,7 @@
                                         <h2 style="color: white">Select Symptoms</h2>
                                     </div>
                                     <div class="form-row">
-                                        <asp:CheckBoxList CssClass="CheckBoxList" ID="symptom_checkbox" Style="color: white; margin-left: 35%;margin-right:35%;" runat="server">
+                                        <asp:CheckBoxList CssClass="CheckBoxList" ID="symptom_checkbox" Style="color: white; margin-left: 35%;margin-right:35%;" runat="server" BorderColor="White" ForeColor="White">
                                             <asp:ListItem Value="1">Breath problem</asp:ListItem>
                                             <asp:ListItem Value="2">Dry cough</asp:ListItem>
                                             <asp:ListItem Value="3">Sore throat</asp:ListItem>
@@ -119,7 +119,7 @@
                                         <h2 style="color: white">Final Result Based on your information</h2>
                                     </div>
                                     <div class="form-row">
-                                        <asp:Table ID="resultTable" CssClass="tbl" runat="server" Caption="COVID-19 Result" CaptionAlign="Top" GridLines="Both" CellPadding="10" CellSpacing="10" HorizontalAlign="Center" BorderColor="Black" BorderWidth="2px">
+                                        <asp:Table ID="resultTable" CssClass="tbl" runat="server" GridLines="Both" CellPadding="10" CellSpacing="10" HorizontalAlign="Center" BorderColor="White" BorderWidth="2px">
                                             <asp:TableRow>
                                                 <asp:TableCell>Age</asp:TableCell><asp:TableCell>
                                                     <asp:Literal ID="ageLiteral" runat="server"></asp:Literal>
